@@ -7,23 +7,23 @@ import com.renanlopes.rlvendas.entities.Seller;
 public class SaleSumDTO implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
-	private String sellerNameString;
+	private String sellerName;
 	private Double sum;
 	
 	public SaleSumDTO() {
 	}
 
 	public SaleSumDTO(Seller seller, Double sum) {
-		this.sellerNameString = seller.getName();
+		this.sellerName = seller.getName();
 		this.sum = sum;
 	}
 
-	public String getSellerNameString() {
-		return sellerNameString;
+	public String getSellerName() {
+		return sellerName;
 	}
 
-	public void setSellerNameString(String sellerNameString) {
-		this.sellerNameString = sellerNameString;
+	public void setSellerName(String sellerName) {
+		this.sellerName = sellerName;
 	}
 
 	public Double getSum() {

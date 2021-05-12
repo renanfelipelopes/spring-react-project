@@ -22,7 +22,7 @@ export type SalePage = {
 }
 
 export type SaleSum = {
-    sellerName: string;
+    sellerNameString: string;
     sum: number;
 }
 

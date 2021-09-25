@@ -3,7 +3,7 @@
 ![dash](https://github.com/renanflow/spring-react-project/blob/master/frontend/src/assets/img/dash-vendas.gif)
 
 Webpage application: https://renan-dashvendas.netlify.app/dashboard <br>
-Link do video onde explico um pouco de como foi feito: https://www.linkedin.com/feed/update/urn:li:activity:6796926908618571776/
+Link do vídeo onde explico um pouco de como foi feito: https://www.linkedin.com/feed/update/urn:li:activity:6796926908618571776/
 
 💻 O backend foi dividido em três camadas, que são com controladores REST que conversam com a camada de Serviço, que conversa com a camada de Acesso a Dados <br>
 🔁 A troca de informações entre o Front-end e o Back-end é feita através do protocolo HTTP usando o padrão REST com objetos no formato JSON. <br>
